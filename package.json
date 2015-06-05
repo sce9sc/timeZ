@@ -1,0 +1,30 @@
+{
+  "name": "timeZ",
+  "version": "1.0.0",
+  "description": "Locat time for coutry Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sce9sc/timeZ.git"
+  },
+  "keywords": [
+    "timezone"
+  ],
+  "author": "Stavros Charitakis <sce9sc@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sce9sc/timeZ/issues"
+  },
+  "homepage": "https://github.com/sce9sc/timeZ",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.4.0",
+    "tz-lookup": "^6.0.1"
+  }
+}
