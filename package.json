@@ -1,7 +1,7 @@
 {
   "name": "timeZ",
   "version": "0.1.0",
-  "description": "Locat time for coutry Code",
+  "description": "Local time for country Code",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
