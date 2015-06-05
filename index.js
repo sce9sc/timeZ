@@ -3,7 +3,7 @@ var tz = require("tz-lookup");
 var moment = require('moment-timezone');
 
 
-var timeZ = function(country){
+var country2timezone = function(country){
     var countryCoo = CountryCoo[country.toLowerCase()];
     var tzwhere =  tz(countryCoo[0],countryCoo[1]);
 
@@ -13,4 +13,4 @@ var timeZ = function(country){
 
 }
 
-module.exports = timeZ
+module.exports = country2timezone
