@@ -1,5 +1,5 @@
 {
-  "name": "country2timezone",
+  "name": "c2tz",
   "version": "0.1.0",
   "description": "Local time for country Code",
   "main": "index.js",

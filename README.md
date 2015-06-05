@@ -5,12 +5,12 @@ A small lib to get the local time for a given Country Code
 
 ## Installation 
 
-npm install timez --save
+npm install c2tz --save
 
 
 ## Usage
 
-var tz = require('timeZ');
+var tz = require('c2tz');
 
 tz('GB')
 
